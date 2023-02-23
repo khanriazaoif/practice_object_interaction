@@ -1,7 +1,7 @@
 class Patron {
-    constructor(name, email, currentBook) {
+    constructor(name, email) {
         this.name = name;
         this.email = email;
-        this.currentBook = currentBook;
+        this.currentBook = null;
     }
 }

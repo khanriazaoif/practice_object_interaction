@@ -1,7 +1,8 @@
 class Book {
-    constructor(titleElement, author, isbn){
-        this.titleElement = titleElement;
+    constructor(title, author, isbn){
+        this.titleElement = title;
         this.author = author;
         this.isbn = isbn;
     }
+
 }
